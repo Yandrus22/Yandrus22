@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="/image 6.png" style="margin-bottom: -60px; margin-top: -20px; cursor: pointer;" onclick="document.location='home.html'">
+            <h1>LOGO</h1>
         </div>
         <nav>
             <ul>
@@ -22,20 +24,18 @@
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1 class="heading">Life is short,<br>
-                    Let’s explore!</h1>
-                <button onclick="document.location='about.html'">Read More</button>
+                <button>Read More</button>
             </div>
         </section>
 
         <section class="features">
-            <div class="feature-box1"></div>
-            <div class="feature-box2"></div>
-            <div class="feature-box3"></div>
+            <div class="feature-box"></div>
+            <div class="feature-box"></div>
+            <div class="feature-box"></div>
         </section>
     </main>
 
-    <footer>
+      <footer>
         <div class="social-media">
             <img src="/socials.png">
             <img src="/socials copy.png">
